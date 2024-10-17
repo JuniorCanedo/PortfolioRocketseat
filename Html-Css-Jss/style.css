@@ -37,6 +37,7 @@ body {
   /*Eu consigo agrupar tudo isso acima em uma só codigo.*/
   background: var(--bg-url) no-repeat top center/cover;
   /*Seguinifica que eu transformei os caras lá em cima em uma só propriedade*/
+  height: 100vh;
 }
 
 body * {
@@ -166,4 +167,16 @@ footer {
   padding: 24px;
   text-align: center;
   font-size: 14px;
+}
+
+/* media queris */
+@media (main-width:700px) {
+  :root {
+    --bg_url: url(./assets/bg-desktop.jpg);
+  }
+
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
+
 }
